@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  font-family: 'Overpass', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+
+}
+
+body {
+  color: #fff;
+
+}
+.btn {
+  background-color: transparent;
+  display: inline-block;
+  border: 2px solid #fff;
+  color: #fff;
+  padding-top: .3em;
+  padding-bottom: .3em;
+  padding-left: .7em;
+  padding-right: .7em;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #495562;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+.icon {
+  text-align: center;
+
+}
