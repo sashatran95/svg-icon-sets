@@ -1,29 +1,16 @@
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
   font-family: Overpass, sans-serif;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-
-}
-
-body {
   color: #fff;
-  padding: 2.5rem;
-
 }
+
 .btn {
   background-color: transparent;
   display: inline-block;
-  border: 2px solid rgba(255, 255, 255, .5);
+  border: 3px solid rgba(255, 255, 255, .5);
   color: #fff;
+  margin-top: 1em;
+  margin-left: 0;
   padding-top: .3em;
   padding-bottom: .3em;
   padding-right: .7em;
@@ -38,37 +25,21 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 24px;
-  padding: 0;
 
 }
 
-h2 {
-  font-size: 20px;
-
-}
-
-p {
-  font-size: 15px;
-
-}
-
-.icon {
-  max-width: 256px;
-
-}
 .border {
   border-bottom: 2px solid rgba(255, 255, 255, .5);
-  padding-bottom: 1.5rem;
-  padding-top: 1.3rem;
+  padding-bottom: 2rem;
 
 }
 
 @media only screen and (min-width: 60em) {
 
   .border {
-    border-right: 2px solid rgba (255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .5);
     border-bottom: 0;
 
   }
+
 }
